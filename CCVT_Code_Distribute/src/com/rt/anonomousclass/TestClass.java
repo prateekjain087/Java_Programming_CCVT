@@ -9,7 +9,7 @@ public class TestClass {
 		
 		Greeting obj=new Greeting(){
 			
-			@Override
+			@Override   //telling JVM in advance about overriding
 			public void print() {
 				// TODO Auto-generated method stub
 				System.out.println("Hello World");
